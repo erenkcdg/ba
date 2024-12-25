@@ -1,0 +1,17 @@
+{
+    "settings": {
+        "make_private":     1,
+        "data_processing":  0,
+        "dataset_mode":     0,
+        "init_mode":        1,
+        "dp_mode":          0
+    },
+    "settings-kommentare":{
+        "make_private":     "0: ohne PrivacyEngine (SGD)        | 1: mit PrivacyEngine (DP-SGD)",
+        "data_processing":  "0: Sampling                        | 1: Batching"                  ,
+        "dataset_mode":     "0: fester Datensatz                | 1: variabler Datensatz"       ,
+        "init_mode":        "0: feste Initialisierung           | 1: variable Initialisierung"  ,
+        "dp_mode":          "0: feste Datenverarbeitung         | 1: variable Datenverarbeitung"
+    }
+}
+
